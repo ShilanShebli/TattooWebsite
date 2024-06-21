@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--navbar section-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="/static/logo-shabnam-round.png" alt="logo" width="40" height="40"> Art By Shabnam</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/art_by_shabnamm?igsh=ZnZvOTFmdjEyczI0">Instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.tiktok.com/@art_by_shabnamm?_t=8mzqBPCk9bN">TikTok</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    
+<div class="container">
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Welcome to Art By Shabnam!</h1>
+        <div class="col-lg-6 mx-auto">
+            <p>Whatever design you have in mind, we can bring it to life. Our skilled artists are here to turn your ideas into stunning tattoos. Whether it's a custom piece or a classic design, we're ready to create something special just for you.</p>
+        </div>
+        <div class="overflow-hidden" style="max-height: 75vh;">
+            <div class="container px-5">
+                <img class="home-image" src="/static/tattooFlower.png" alt="Tattoo Studio">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container px-4 py-5" id="custom-cards">
+    <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/static/your-design-bird.png'); background-size: cover; background-repeat: no-repeat;">
+                <a href="/your_design" class="stretched-link"></a>
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-2 pb-5 mt-5 mb-4 display-6 lh-1 fw-bold">Your Vision, Our Artistry</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/static/hygiene.png'); background-size: cover; background-repeat: no-repeat;">
+                <a href="/hygiene" class="stretched-link"></a>
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-2 pb-5 mt-5 mb-4 display-6 lh-1 fw-bold">Serenity Meets Hygiene</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/static/studio.png'); background-size: cover; background-repeat: no-repeat;">
+                <a href="/artist" class="stretched-link"></a>
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-2 pb-5 mt-5 mb-4 display-6 lh-1 fw-bold">Meet Your Tattoo Artist</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
